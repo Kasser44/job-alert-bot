@@ -1,0 +1,505 @@
+[
+  {
+    "name": "Alan",
+    "ats": "ashby",
+    "slug": "alan"
+  },
+  {
+    "name": "Back Market",
+    "ats": "ashby",
+    "slug": "backmarket"
+  },
+  {
+    "name": "Doctolib",
+    "ats": "ashby",
+    "slug": "doctolib"
+  },
+  {
+    "name": "H Company",
+    "ats": "ashby",
+    "slug": "hcompany"
+  },
+  {
+    "name": "Ledger",
+    "ats": "ashby",
+    "slug": "ledger"
+  },
+  {
+    "name": "Mistral AI",
+    "ats": "ashby",
+    "slug": "mistral.ai"
+  },
+  {
+    "name": "Pennylane",
+    "ats": "ashby",
+    "slug": "pennylane"
+  },
+  {
+    "name": "Qonto",
+    "ats": "ashby",
+    "slug": "qonto"
+  },
+  {
+    "name": "Voodoo",
+    "ats": "ashby",
+    "slug": "voodoo"
+  },
+  {
+    "name": "Alice & Bob",
+    "ats": "lever",
+    "slug": "alice-bob"
+  },
+  {
+    "name": "BlaBlaCar",
+    "ats": "lever",
+    "slug": "blablacar"
+  },
+  {
+    "name": "Contentsquare",
+    "ats": "lever",
+    "slug": "contentsquare"
+  },
+  {
+    "name": "Ekimetrics",
+    "ats": "lever",
+    "slug": "ekimetrics"
+  },
+  {
+    "name": "Malt",
+    "ats": "lever",
+    "slug": "malt"
+  },
+  {
+    "name": "Pigment",
+    "ats": "lever",
+    "slug": "pigment"
+  },
+  {
+    "name": "Swile",
+    "ats": "lever",
+    "slug": "swile"
+  },
+  {
+    "name": "Verkor",
+    "ats": "lever",
+    "slug": "verkor"
+  },
+  {
+    "name": "360Learning",
+    "ats": "lever",
+    "slug": "360learning"
+  },
+  {
+    "name": "Agicap",
+    "ats": "lever",
+    "slug": "agicap"
+  },
+  {
+    "name": "Bigblue",
+    "ats": "lever",
+    "slug": "bigblue"
+  },
+  {
+    "name": "FAIRMAT",
+    "ats": "lever",
+    "slug": "Fairmat"
+  },
+  {
+    "name": "Vestiaire Collective",
+    "ats": "lever",
+    "slug": "vestiairecollective"
+  },
+  {
+    "name": "Shift Technology",
+    "ats": "greenhouse",
+    "slug": "shifttechnology"
+  },
+  {
+    "name": "Flowdesk",
+    "ats": "greenhouse",
+    "slug": "flowdesk"
+  },
+  {
+    "name": "OuiHelp",
+    "ats": "greenhouse",
+    "slug": "ouihelp"
+  },
+  {
+    "name": "EcoVadis",
+    "ats": "smartrecruiters",
+    "slug": "ecovadis"
+  },
+  {
+    "name": "Air Liquide",
+    "ats": "workday",
+    "host": "airliquidehr.wd3.myworkdayjobs.com",
+    "tenant": "airliquidehr",
+    "site": "AirLiquideExternalCareer"
+  },
+  {
+    "name": "Airbus",
+    "ats": "workday",
+    "host": "ag.wd3.myworkdayjobs.com",
+    "tenant": "ag",
+    "site": "Airbus",
+    "enabled": false
+  },
+  {
+    "name": "LVMH",
+    "ats": "custom_json",
+    "url": "https://www.lvmh.com/api/search",
+    "method": "POST",
+    "headers": {
+      "Origin": "https://www.lvmh.com",
+      "Referer": "https://www.lvmh.com/en/join-us/our-job-offers",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    "body": {
+      "queries": [
+        {
+          "indexName": "PRD-en-us-timestamp-desc",
+          "params": {
+            "facetFilters": [
+              [
+                "contractFilter:Permanent Job"
+              ],
+              [
+                "countryRegionFilter:France"
+              ]
+            ],
+            "filters": "category:job",
+            "hitsPerPage": 1000,
+            "page": 0,
+            "query": "",
+            "attributesToRetrieve": 
+            [
+              "name",
+              "maison",
+              "country",
+              "regionState",
+              "link",
+              "objectID",
+              "publicationTimestamp"
+            ]
+          }
+        }
+      ]
+    },
+    "list_path": "results.0.hits",
+    "fields": {
+      "id": "objectID",
+      "title": ["name", "maison"],
+      "location": ["regionState", "country"],
+      "url": "link",
+      "posted": "publicationTimestamp"
+    }
+  },
+  {
+    "name": "L'Oréal",
+    "ats": "talentbrew",
+    "base": "https://careers.loreal.com",
+    "path": "/en/search-jobs/results",
+    "params": {
+      "ActiveFacetID": 0,
+      "Distance": 50,
+      "RadiusUnitType": 1,
+      "Keywords": "",
+      "Location": "Paris, Île-de-France Region",
+      "Latitude": 48.85341,
+      "Longitude": 2.3488,
+      "ShowRadius": "True",
+      "IsPagination": "True",
+      "SearchResultsModuleName": "Search Results",
+      "SearchFiltersModuleName": "Search Filters",
+      "SortCriteria": 0,
+      "SortDirection": 0,
+      "SearchType": 1,
+      "LocationType": 4,
+      "LocationPath": "3017382-3012874-2968815-2988507",
+      "OrganizationIds": 3456,
+      "ResultsType": 0
+    }
+  },
+  {
+    "name": "Sanofi",
+    "ats": "talentbrew",
+    "base": "https://jobs.sanofi.com",
+    "path": "/en/search-jobs/results",
+    "params": {
+      "Distance": 50,
+      "RadiusUnitType": 1,
+      "Keywords": "",
+      "Location": "Paris, Île-de-France Region",
+      "Latitude": 48.85341,
+      "Longitude": 2.3488,
+      "ShowRadius": "True",
+      "IsPagination": "True",
+      "SearchResultsModuleName": "Search Results",
+      "SearchFiltersModuleName": "Search Filters",
+      "SortCriteria": 0,
+      "SortDirection": 0,
+      "SearchType": 1,
+      "LocationType": 4,
+      "LocationPath": "3017382-3012874-2968815-2988507",
+      "ResultsType": 0,
+      "ActiveFacetID": 0,
+      "OrganizationIds": "2649"
+    },
+    "max_pages": 10
+  },
+  {
+    "name": "Veolia",
+    "ats": "talentbrew",
+    "base": "https://jobs.veolia.com",
+    "path": "/en/search-jobs/results",
+    "params": {
+      "Distance": 50,
+      "RadiusUnitType": 1,
+      "Keywords": "",
+      "Location": "Paris, Île-de-France Region",
+      "Latitude": 48.85341,
+      "Longitude": 2.3488,
+      "ShowRadius": "True",
+      "IsPagination": "True",
+      "SearchResultsModuleName": "Search Results",
+      "SearchFiltersModuleName": "Search Filters",
+      "SortCriteria": 0,
+      "SortDirection": 0,
+      "SearchType": 1,
+      "LocationType": 4,
+      "LocationPath": "3017382-3012874-2968815-2988507",
+      "ResultsType": 0,
+      "ActiveFacetID": 0,
+      "OrganizationIds": "3091"
+    },
+    "max_pages": 10
+  },
+  {
+    "name": "Kering",
+    "ats": "eightfold",
+    "base": "https://careers.kering.com",
+    "domain": "kering.com",
+    "location": "France"
+  },
+  {
+    "name": "Danone",
+    "ats": "custom_json",
+    "url": "https://careers.danone.com/content/corp/global/career-rebrand/fr/fr/jobs.cfsearch.json/_jcr_content/root/container/container/container_293031609_/cfsearch_812131300",
+    "method": "GET",
+    "headers": {
+      "referer": "https://careers.danone.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    },
+    "params": {
+      "fulltext": "data*",
+      "643720274_group.propertyvalues.property": "jcr:content/data/master/country",
+      "643720274_group.propertyvalues.operation": "equals",
+      "643720274_group.propertyvalues.26_values": "France",
+      "p.limit": 12
+    },
+    "pagination": {
+      "param": "p.offset",
+      "step": 12,
+      "total_path": "total",
+      "max_pages": 20
+    },
+    "list_path": "contentFragments",
+    "fields": {
+      "id": "elements.jobID",
+      "title": [
+        "elements.title",
+        "elements.brand"
+      ],
+      "location": [
+        "elements.city",
+        "elements.country"
+      ],
+      "url": "url"
+    },
+    "url_prefix": "https://careers.danone.com",
+    "enabled": false
+  },
+  {
+    "name": "Pernod Ricard",
+    "ats": "workday",
+    "host": "pernodricard.wd3.myworkdayjobs.com",
+    "tenant": "pernodricard",
+    "site": "pernod-ricard"
+  },
+  {
+    "name": "Accor",
+    "ats": "smartrecruiters",
+    "slug": "AccorHotel",
+    "params": {
+      "country": "fr"
+    }
+  },
+  {
+    "name": "Saint-Gobain",
+    "ats": "smartrecruiters",
+    "slug": "SaintGobain",
+    "params": {
+      "country": "fr"
+    }
+  },
+  {
+    "name": "Exotec",
+    "ats": "workable",
+    "slug": "exotec"
+  },
+  {
+    "name": "CorWave",
+    "ats": "workable",
+    "slug": "corwave-1"
+  },
+  {
+    "name": "Homa",
+    "ats": "workable",
+    "slug": "homa-games"
+  },
+  {
+    "name": "Mistertemp' Group",
+    "ats": "recruitee",
+    "slug": "jobsmistertemp"
+  },
+  {
+    "name": "Shippeo",
+    "ats": "smartrecruiters",
+    "slug": "Shippeo"
+  },
+  {
+    "name": "Aqemia",
+    "ats": "teamtailor",
+    "base": "https://careers.aqemia.com"
+  },
+  {
+    "name": "ChapsVision",
+    "ats": "teamtailor",
+    "base": "https://careers.chapsvision.com"
+  },
+  {
+    "name": "Descartes Underwriting",
+    "ats": "teamtailor",
+    "base": "https://careers.descartesunderwriting.com"
+  },
+  {
+    "name": "Foodles",
+    "ats": "teamtailor",
+    "base": "https://jobs.foodles.co"
+  },
+  {
+    "name": "Hublo",
+    "ats": "teamtailor",
+    "base": "https://careers.hublo.com"
+  },
+  {
+    "name": "NW",
+    "ats": "teamtailor",
+    "base": "https://jobs.nw-groupe.com"
+  },
+  {
+    "name": "Pasqal",
+    "ats": "teamtailor",
+    "base": "https://careers.pasqal.com"
+  },
+  {
+    "name": "Payfit",
+    "ats": "teamtailor",
+    "base": "https://careers.payfit.com"
+  },
+  {
+    "name": "Spendesk",
+    "ats": "teamtailor",
+    "base": "https://career.spendesk.com"
+  },
+  {
+    "name": "Tissium",
+    "ats": "teamtailor",
+    "base": "https://careers.tissium.com"
+  },
+  {
+    "name": "Akeneo",
+    "ats": "teamtailor",
+    "base": "https://careers.akeneo.com"
+  },
+  {
+    "name": "Deepki",
+    "ats": "teamtailor",
+    "base": "https://careers.deepki.com"
+  },
+  {
+    "name": "Exotrail",
+    "ats": "teamtailor",
+    "base": "https://careers.exotrail.com"
+  },
+  {
+    "name": "Greenly",
+    "ats": "teamtailor",
+    "base": "https://careers.greenly.earth"
+  },
+  {
+    "name": "Libon",
+    "ats": "teamtailor",
+    "base": "https://careers.libon.com"
+  },
+  {
+    "name": "MWM",
+    "ats": "teamtailor",
+    "base": "https://mwm.teamtailor.com"
+  },
+  {
+    "name": "Mylight150",
+    "ats": "teamtailor",
+    "base": "https://jobs.mylight150.com"
+  },
+  {
+    "name": "MyUnisoft",
+    "ats": "teamtailor",
+    "base": "https://careers.myunisoft.fr"
+  },
+  {
+    "name": "Ornikar",
+    "ats": "teamtailor",
+    "base": "https://careers.ornikar.com"
+  },
+  {
+    "name": "Partoo",
+    "ats": "teamtailor",
+    "base": "https://career.partoo.fr"
+  },
+  {
+    "name": "Pixmania",
+    "ats": "teamtailor",
+    "base": "https://jobs.pixmania.com"
+  },
+  {
+    "name": "Planity",
+    "ats": "teamtailor",
+    "base": "https://careers.planity.com"
+  },
+  {
+    "name": "Positive",
+    "ats": "teamtailor",
+    "base": "https://career.positivegroup.com"
+  },
+  {
+    "name": "Spore.Bio",
+    "ats": "teamtailor",
+    "base": "https://careers.spore.bio"
+  },
+  {
+    "name": "Stych",
+    "ats": "teamtailor",
+    "base": "https://careers.stych.fr"
+  },
+  {
+    "name": "Sweep",
+    "ats": "teamtailor",
+    "base": "https://sweep.teamtailor.com"
+  },
+  {
+    "name": "Waat",
+    "ats": "teamtailor",
+    "base": "https://waat.teamtailor.com"
+  }
+]
